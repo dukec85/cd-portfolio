@@ -8,7 +8,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'variables';
 
 body {
-  background: #fff;
+  background: $background;
   font-family: 'Oxygen', serif;
   font-weight: 400;
 }
@@ -32,7 +32,6 @@ body {
   color: #fff;
   z-index: 1;
   font-family: 'Karla' , sans-serif;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -55,7 +54,6 @@ body {
 
 .top-text {
   color: #fff;
-  text-transform: uppercase;
 }
 
 .top-banner {
@@ -65,7 +63,7 @@ body {
   background-position: center;
   text-align: center;
   z-index: 0;
-  font-family: 'Karla' , sans-serif;
+  font-family: Roboto, arial, sans-serif;
   color: #292828;
 }
 
@@ -76,9 +74,8 @@ body {
   background-position: center;
   text-align: center;
   z-index: 0;
-  font-family: 'Karla' , sans-serif;
-  color: black;
-  text-transform: uppercase;
+  font-family: Roboto, arial, sans-serif;
+  color: $logo;
   background-color: $banner;
 }
 
@@ -145,7 +142,7 @@ body {
   padding: 0 $gutter;
   margin-top: 3rem;
   background: #161616;
-  color: #fff;
+  color: $white;
 }
 
 .footer-content {
