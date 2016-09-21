@@ -9,7 +9,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
 body {
   background: $background;
-  font-family: 'Oxygen', serif;
+  font-family: 'Raleway', serif;
   font-weight: 400;
 }
 
@@ -31,7 +31,7 @@ body {
   background: black;
   color: #fff;
   z-index: 1;
-  font-family: 'Karla' , sans-serif;
+  font-family: 'Raleway' , sans-serif;
   text-align: center;
 }
 
@@ -63,7 +63,7 @@ body {
   background-position: center;
   text-align: center;
   z-index: 0;
-  font-family: Roboto, arial, sans-serif;
+  font-family: Raleway, arial, sans-serif;
   color: #292828;
 }
 
@@ -84,7 +84,7 @@ body {
   text-align: center;
   padding: 0.8rem 0 2rem 0;
     h3{
-    font-family: 'Oxygen' , sans-serif;
+    font-family: 'Raleway' , sans-serif;
     color: darken($border, 80%);
     font-size: 18pt;
     font-weight: 400;
